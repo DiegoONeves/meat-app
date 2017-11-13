@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormGroup, FormBuilder, Validators, AbstractControl } from '@angular/forms';
 
-import { RadioOption } from '../radio/radio-option.model';
+import { RadioOption } from '../shared/radio/radio-option.model';
 import { OrderService } from "../order/order.service";
 import { CartItem } from "../restaurant-detail/shopping-cart/cart-item.model";
 import { Order } from "../order/order.model";
